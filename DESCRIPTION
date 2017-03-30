@@ -5,7 +5,7 @@ Version: 0.1.0
 Author: c(
     person("Haley", "Jeppson", email = "hjeppson@iastate.edu", role = c("aut", "cre")),
     person("Amy", "Crawford", email = "amymc@iastate.edu", role =c("aut", "cre"),
-    person("Ganesh", "K", email = "ganeshk@monash.edu", role = c("aut", "cre")))
+    person("Ganesh", "Krishnan", email = "ganeshk@iastate.edu", role = c("aut", "cre")))
 Maintainer: The package maintainer <yourself@somewhere.net>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.

@@ -3,6 +3,10 @@
 #' @param x A vector of country names and percentages.
 #' @param y A vector of percentages.
 #' @export
+#'
+#' @importFrom utils getFromNamespace
+#' @importFrom countrycode countrycode
+#'
 #' @return A data frame with two columns: continent and average percentage.
 #' @examples
 #' data(cousin)

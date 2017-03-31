@@ -1,11 +1,14 @@
 #' Output a vector containing the continent of the country
 #'
-#' @param x A vector of country names.
+#' @param x A data frame with two columns: country names and percentages.
 #' @export
-#' @return A vector of continent names.
+#' @return A data frame with two columns: continent and average percentage.
 #' @examples
-#' byContinent()
-#' add(10, 1)
-add <- function(x, y) {
-  x + y
+#' data(cousin)
+#' byContinent(cousin)
+
+byContinent <- function(x, y){
+  df <- data.frame(x, y)
+  x$continents <- countrycode(x, origin = "country.name", destination = "continent")
+  x %>% group_by(continents) %>% summarize(y)
 }

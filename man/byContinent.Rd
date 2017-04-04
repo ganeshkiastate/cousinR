@@ -18,7 +18,6 @@ A data frame with two columns: continent and average percentage.
 Output a vector containing the continent of the country
 }
 \examples{
-data(cousin)
 byContinent(cousin$Country, cousin$Percent)
 }
 

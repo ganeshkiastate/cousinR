@@ -11,7 +11,7 @@
   ...
 }}
 \source{
-\url{https://github.com/fivethirtyeight/data/tree/master/cousin-marriage}
+\url{https://raw.githubusercontent.com/fivethirtyeight/data/master/cousin-marriage/cousin-marriage-data.csv}
 }
 \usage{
 cousin

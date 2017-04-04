@@ -8,5 +8,5 @@
 #'   \item{Percent}{percentage of marriages that are consanguineous}
 #'   ...
 #' }
-#' @source \url{https://github.com/fivethirtyeight/data/tree/master/cousin-marriage}
+#' @source \url{https://raw.githubusercontent.com/fivethirtyeight/data/master/cousin-marriage/cousin-marriage-data.csv}
 "cousin"

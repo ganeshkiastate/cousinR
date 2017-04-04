@@ -6,11 +6,12 @@
 #'
 #' @importFrom utils getFromNamespace
 #' @importFrom countrycode countrycode
+#' @importFrom dplyr
 #'
 #' @return A data frame with two columns: continent and average percentage.
 #' @examples
-#' data(cousin)
-#' byContinent(cousin$Country, cousin$Percent)
+#' cousinData <- cousinR::d
+#' byContinent(cousinData$Country, cousinData$Percent)
 
 byContinent <- function(x, y){
   df <- data.frame(x, y)
